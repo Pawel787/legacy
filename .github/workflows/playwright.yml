@@ -4,6 +4,12 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+    workflow_dispatch:
+    inputs:
+      phone_number:
+        description: 'Phone number for the test'
+        required: true
+        default: '123456789'
 jobs:
   test:
     timeout-minutes: 60
@@ -16,12 +22,14 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Install Playwright Chromium
-      run: npx playwright install chromium --with-deps
+      run: npx playwright install chromium
     - name: Run only createLegacy.spec Playwright test
+      # Running only the createLegacy.spec.ts test file as part of this workflow
       run: npx playwright test tests/createLegacyUser/createLegacy.spec.ts
       env:
-        PHONE_NUMBER: 'NEW_PHONE_NUMBER'
-    - uses: actions/upload-artifact@v4
+        # The phone number to be used in tests. Set this value as a secret or input.
+        PHONE_NUMBER: ${{ github.event.inputs.phone_number }}
+      # Ensure artifacts are uploaded only if the workflow is not canceled
       if: ${{ !cancelled() }}
       with:
         name: playwright-report

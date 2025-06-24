@@ -20,7 +20,7 @@ jobs:
     - name: Run only createLegacy.spec Playwright test
       run: npx playwright test tests/createLegacyUser/createLegacy.spec.ts
       env:
-        PHONE_NUMBER: 'NEW_PHONE_NUMBER'
+        PHONE_NUMBER: '662971000'
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:

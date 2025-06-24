@@ -4,7 +4,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-    workflow_dispatch:
+  workflow_dispatch:
     inputs:
       phone_number:
         description: 'Phone number for the test'
@@ -29,7 +29,7 @@ jobs:
       env:
         # The phone number to be used in tests. Set this value as a secret or input.
         PHONE_NUMBER: ${{ github.event.inputs.phone_number }}
-      # Ensure artifacts are uploaded only if the workflow is not canceled
+    - uses: actions/upload-artifact@v4  
       if: ${{ !cancelled() }}
       with:
         name: playwright-report

@@ -1,0 +1,192 @@
+﻿Diagnose log at 2025-06-24T08:34:53Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.0+3c28096588f549cb46f36b552390514356830abe
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22631)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\pbroda
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=POL-7TBWKG3
+MSYSTEM=MINGW64
+MAVEN_HOME=C:\Program Files\Maven\apache-maven-3.9.9
+OneDrive=C:\Users\pbroda\OneDrive - Sii Sp. z o.o
+TMP=C:\Users\pbroda\AppData\Local\Temp
+PROCESSOR_REVISION=8c01
+USERDOMAIN_ROAMINGPROFILE=SIIPOLSKA
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+GIT_ASKPASS=c:\Users\pbroda\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+POWERSHELL_DISTRIBUTION_CHANNEL=MSI:Windows 10 Pro
+TEMP=C:\Users\pbroda\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\pbroda\AppData\Local
+PUBLIC=C:\Users\Public
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+ProgramW6432=C:\Program Files
+JAVA_HOME=C:\Program Files\Java\jdk17.0.13_11
+USERDOMAIN=SIIPOLSKA
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\pbroda\bin;C:\Program Files\PowerShell\7;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk17.0.13_11\bin;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\pbroda\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Users\pbroda\.azure-kubelogin;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\PowerShell\7\;C:\Program Files\nodejs\;C:\Users\pbroda\AppData\Local\Programs\Python\Launcher\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\pbroda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pbroda\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\pbroda\AppData\Local\Programs\Lens\resources\cli\bin;C:\Users\pbroda\.azure-kubectl;C:\Users\pbroda\AppData\Roaming\npm;c:\Users\pbroda\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+USERDNSDOMAIN=SIIPOLSKA.PL
+TERM_PROGRAM=vscode
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=8
+TMPDIR=C:\Users\pbroda\AppData\Local\Temp
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+TERM_PROGRAM_VERSION=1.100.3
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\pbroda\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+PSModulePath=C:\Users\pbroda\Documents\PowerShell\Modules;C:\Program Files\PowerShell\Modules;c:\program files\powershell\7\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-318b9fabe8-sock
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+VSCODE_INJECTION=1
+WSLENV=VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_9504_DNKEKVKIBFWOMVED
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ChocolateyInstall=C:\ProgramData\chocolatey
+GIT_TRACE2_PARENT_SID=4f06d5e4-46b6-462b-9e64-2e013b3f673f
+VSCODE_GIT_ASKPASS_NODE=C:\Users\pbroda\AppData\Local\Programs\Microsoft VS Code\Code.exe
+SystemRoot=C:\windows
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+HOME=C:\Users\pbroda
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\PRDSWDC3
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+COLORTERM=truecolor
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+APPDATA=C:\Users\pbroda\AppData\Roaming
+HOMEDRIVE=C:
+OneDriveCommercial=C:\Users\pbroda\OneDrive - Sii Sp. z o.o
+USERNAME=pbroda
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+USERPROFILE=C:\Users\pbroda
+OS=Windows_NT
+ComSpec=C:\windows\system32\cmd.exe
+SystemDrive=C:
+windir=C:\windows
+LANG=en_US.UTF-8
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\pbroda\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\pbroda\AppData\Local\Temp\d23e4bdb82c797d2a1423bd7'... OK
+Reading from temporary file 'C:\Users\pbroda\AppData\Local\Temp\d23e4bdb82c797d2a1423bd7'... OK
+Deleting temporary file 'C:\Users\pbroda\AppData\Local\Temp\d23e4bdb82c797d2a1423bd7'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\pbroda
+UserDataDirectoryPath: C:\Users\pbroda\.gcm
+GetCurrentDirectory(): C:\Users\pbroda\CircleK
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:60629/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.47.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/pbroda/CircleK/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	core.editor="C:\\Program Files\\Notepad++\\notepad++.exe" -multiInst -notabbar -nosession -noPlugin
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/pbroda/.gitconfig	user.name=Paweł Broda
+file:C:/Users/pbroda/.gitconfig	user.email=pbroda@sii.pl
+file:C:/Users/pbroda/.gitconfig	winupdater.recentlyseenversion=2.35.2.windows.1
+file:C:/Users/pbroda/.gitconfig	credential.helper=store
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/Pawel787/legacy.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\pbroda\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\pbroda\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

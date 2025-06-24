@@ -15,6 +15,7 @@ import { expect, Page } from '@playwright/test';
   await page.getByRole('button', { name: 'Submit' }).click
 
   page.getByRole('cell', { name: 'Result from getNumberType()' });
+  console.info('Checking phone number: ' + phone);
 
   await expect(page.getByRole('cell', { name: 'MOBILE', exact: true })).toHaveText('MOBILE');
 

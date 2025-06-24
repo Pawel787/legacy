@@ -9,8 +9,8 @@ import { UserDetailsPage } from '../pages/userDetailsPage.ts';
 const phoneNumber = '662969000';
 
 test('create Legacy', async ({ page }) => {
-  // await verifyUserInCkidAPIFunction(phoneNumber, false);
-  // await checkPhone(page, phoneNumber);
+  await verifyUserInCkidAPIFunction(phoneNumber, false);
+  await checkPhone(page, phoneNumber);
   // await enrollUserViaWeb(page, phoneNumber);
   // await verifyUserInCkidAPIFunction(phoneNumber, true);
 

@@ -6,12 +6,14 @@ import { HomePage } from '../pages/HomePage.ts';
 import { verifyUserInCkidAPIFunction } from '../helper/verifyUserInCkidAPIFunction.ts';
 import { UserDetailsPage } from '../pages/userDetailsPage.ts';
 
-const phoneNumber = '662969000';
+
+const phoneNumber: string = process.env.PHONE_NUMBER ?? '';
+
 
 test('create Legacy', async ({ page }) => {
   await verifyUserInCkidAPIFunction(phoneNumber, false);
   await checkPhone(page, phoneNumber);
-  // await enrollUserViaWeb(page, phoneNumber);
+  await enrollUserViaWeb(page, phoneNumber);
   // await verifyUserInCkidAPIFunction(phoneNumber, true);
 
   // const loginPage = new LoginPage(page);
